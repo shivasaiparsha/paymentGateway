@@ -34,6 +34,6 @@ public class TransactionController {
         public String deleteALlTransaction()
         {
             transactionServices.deleteall();
-            return "suuccessfully Deleted All Apis";
+            return "suuccessfully Deleted All transactions";
         }
 }
